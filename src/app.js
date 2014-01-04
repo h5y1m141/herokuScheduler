@@ -15,77 +15,14 @@
 
   data = [
     {
-      teamName: "ソリューション営業部",
+      teamName: "第1法人営業部",
       visitRecord: 0
     }, {
-      teamName: "東日本営業部",
-      visitRecord: 0
-    }, {
-      teamName: "ITプロダクトグループ",
-      visitRecord: 0
-    }, {
-      teamName: "通信キャリアグループ",
-      visitRecord: 0
-    }, {
-      teamName: "伊藤忠営業グループ",
-      visitRecord: 0
-    }, {
-      teamName: "第1法人グループ",
-      visitRecord: 0
-    }, {
-      teamName: "第2法人グループ",
-      visitRecord: 0
-    }, {
-      teamName: "第3法人グループ",
-      visitRecord: 0
-    }, {
-      teamName: "スマホソーシャルグループ",
-      visitRecord: 0
-    }, {
-      teamName: "横浜支店",
+      teamName: "第2法人営業部",
       visitRecord: 2
     }, {
-      teamName: "仙台支店",
-      visitRecord: 0
-    }, {
-      teamName: "札幌支店",
-      visitRecord: 0
-    }, {
-      teamName: "名古屋支店",
-      visitRecord: 0
-    }, {
-      teamName: "豊田支店",
-      visitRecord: 0
-    }, {
-      teamName: "西日本営業部",
-      visitRecord: 0
-    }, {
-      teamName: "大阪支店",
-      visitRecord: 0
-    }, {
-      teamName: "広島支店",
-      visitRecord: 0
-    }, {
-      teamName: "福岡支店",
-      visitRecord: 0
-    }, {
-      teamName: "東日本エンジニアリンググループ",
-      visitRecord: 0
-    }, {
-      teamName: "西日本エンジニアリンググループ",
-      visitRecord: 0
-    }, {
-      teamName: "東日本ソーシャルソリューショングループ",
-      visitRecord: 0
-    }, {
-      teamName: "中部ソーシャルソリューショングループ",
-      visitRecord: 0
-    }, {
-      teamName: "西日本ソーシャルソリューショングループ",
-      visitRecord: 0
-    }, {
-      teamName: "サービスデリバリーグループ",
-      visitRecord: 0
+      teamName: "第3法人営業部",
+      visitRecord: 10
     }
   ];
 
@@ -101,7 +38,7 @@
           return callback(item);
         }
       });
-    }), Math.ceil(Math.random() * 3000));
+    }), 1000);
   };
 
   for (_i = 0, _len = data.length; _i < _len; _i++) {
