@@ -1,0 +1,1 @@
+mytask: node src/app.js
